@@ -1,4 +1,4 @@
-@media(max-width:1000px){
+@media(max-width:1300px){
 
 .header-list{
     display: none;
@@ -12,10 +12,11 @@
 
 .fa-bars{
     display: block;
-    float:right;
     font-size:40px;
     color:black;
-    padding:30px;
+    position:absolute;
+    top:30px;
+    left:90%;
 }
 
 .article-top{
@@ -56,10 +57,11 @@
 
 .fa-bars{
     display: block;
-    float:right;
-    font-size: 40px;
-    padding:30px;
+    font-size:40px;
     color:black;
+    position:absolute;
+    top:30px;
+    left:90%;
 }
 
 .slide-image{
