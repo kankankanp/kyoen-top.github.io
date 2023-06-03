@@ -15,6 +15,7 @@
     float:right;
     font-size:40px;
     color:black;
+    padding:30px;
 }
 
 .article-top{
@@ -57,6 +58,7 @@
     display: block;
     float:right;
     font-size: 40px;
+    padding:30px;
     color:black;
 }
 
