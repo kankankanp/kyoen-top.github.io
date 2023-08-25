@@ -260,15 +260,26 @@ main{
 }
 
 footer{
-  height:200px;
+  height:300px;
   background-color:#9BA4B5;
-  position: relative;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.footer-company{
+  width:75%;
+  text-align: center;
+  margin:auto;
+}
+
+.footer-company img{
+  width:300px;
+  height:100px;
 }
 
 .footer-SNS{
-  position:absolute;
-  top:50px;
-  left:40px;
+  width:25%;
+  position: relative;
 }
 
 .twitter-btn {
@@ -283,7 +294,10 @@ footer{
   font-family: serif;
   font-weight:bold;
   text-align: center;
-  margin-bottom:15px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
 }
 
 .youtube-btn{
@@ -298,6 +312,10 @@ footer{
   font-family: serif;
   font-weight:bold;
   text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
 }
 
 .fa{
