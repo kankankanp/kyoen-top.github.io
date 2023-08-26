@@ -174,7 +174,6 @@ main{
     background-color: #5cabd0;
   }
 
-
 .article-top{
   margin:0 auto;
   width:50%;
@@ -203,19 +202,29 @@ main{
   padding-left:20px;
 }
 
+.content-enter p{
+  margin:0;
+}
+
 .content-program h3{
   font-size:30px;
   padding-right:20px;
+  margin:0;
+}
+
+.content-program {
+  margin:0;
 }
 
 .content-play h3{
   font-size:30px;
   padding-left:20px;
+  margin:0;
 }
 
 .content-enter{
   text-align: left;
-  padding-right: 60%;
+  padding-right: 55%;
 }
 
 .content-enter h3{
@@ -230,7 +239,7 @@ main{
 
 .content-program{
   text-align:right;
-  padding-left:60%;
+  padding-left:55%;
 }
 
 .content-program h3{
@@ -245,7 +254,8 @@ main{
 
 .content-play{
   text-align: left;
-  padding-right:60%;
+  padding-right:55%;
+  padding-bottom:40px;
 }
 
 .content-play h3{
