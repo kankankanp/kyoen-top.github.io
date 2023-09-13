@@ -269,6 +269,22 @@ main{
   padding-left:20px;
 }
 
+.link{
+  text-align: center;
+  margin:0;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.link a{
+  color:#212A3E;
+  font-size: 30px;
+}
+
+.link a:hover{
+  opacity:0.5;
+}
+
 footer{
   height:300px;
   background-color:#9BA4B5;
