@@ -11,6 +11,65 @@ html,body{
   font-family: serif;
 }
 
+
+.next-year {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0.5% 2.5%;
+  border: 2px solid #5cabd0;
+  border-radius: 3px 0 3px 0;
+}
+
+.next-year::before, .next-year::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: solid 2px #5cabd0;
+  border-radius: 50%;
+}
+
+.next-year::before {
+  bottom: -12px;
+  right: -12px;
+}
+
+.next-year::after {
+  top: -12px;
+  left: -12px;
+}
+
+.next-year-lead {
+  text-align: center;
+  @media(max-width:670px){
+    font-size: 19px;
+  }
+}
+
+.next-year-text{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+.next-year-text a {
+  color: #121212;
+  background-color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.next-year-text a:hover {
+  color: white;
+  background-color: orange;
+}
 header{
     line-height:100%;
     position: fixed;
