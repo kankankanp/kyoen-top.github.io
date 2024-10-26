@@ -41,8 +41,8 @@ export default () => {
           ...htmlEntries,
         },
         output: {
-          entryFileNames: `assets/js/[name].js`,
-          chunkFileNames: `assets/js/[name].js`,
+          entryFileNames: `[name].js`,
+          chunkFileNames: `[name].js`,
           assetFileNames: (assetInfo) => {
             if (/\.( gif|jpg|png|svg|mp4|ico|jpeg )$/.test(assetInfo.name)) {
               return "assets/img/[name].[ext]";
