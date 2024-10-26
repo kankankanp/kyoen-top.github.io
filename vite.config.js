@@ -6,7 +6,7 @@ import { htmlEntries } from "./vite/html-entries";
 export default () => {
   process.env = { ...process.env, ...loadEnv("production", process.cwd()) };
   return defineConfig({
-    base: "./",
+    base: "/kyoen2023/",
     root: "./src",
     publicDir: "../public",
     resolve: {
