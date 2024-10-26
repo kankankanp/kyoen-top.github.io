@@ -1,0 +1,1 @@
+$(function(){$(".fa-bars").click(function(){var e=350,t=$(".side-list");t.toggleClass("open"),t.hasClass("open")?t.stop(!0).animate({left:"45%"},e):t.stop(!0).animate({left:"150%"},e)})});$(function(){$(".nav-open").click(function(){$(this).toggleClass("active"),$(this).next("nav").slideToggle()})});
