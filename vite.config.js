@@ -18,7 +18,7 @@ export default () => {
       preprocessorOptions: {
         scss: {
           includePaths: [
-            fileURLToPath(new URL("./src/assets/scss", import.meta.url)),
+            fileURLToPath(new URL("./src/assets/css", import.meta.url)),
           ],
           // additionalData: `@use 'global' as *;`
         },
